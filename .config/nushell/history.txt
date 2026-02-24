@@ -645,3 +645,17 @@ ga .
 git commit -m "first commit"
 git config --global user.email "ondy2011tr@gmail.com"
 git config --global user.name "mains-hum"
+ga .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mains-hum/gentoo-hypr.git
+git push -u origin main
+cd /etc/portage/
+ls
+cd repos.conf/
+ls
+h
+ls
+cp -r eselect-repo.conf ~/.dotfiles/
+cd ~/.dotfiles/
+ls
