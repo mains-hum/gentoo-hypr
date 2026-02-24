@@ -1,0 +1,51 @@
+@define-color base     #010001;
+@define-color text     #c5c9c5;
+@define-color mauve    #a292a3;
+@define-color lavender #b3a6c1;
+@define-color blue     #8ba4b0;
+@define-color green    #8a9a7b;
+@define-color yellow   #c4b28a;
+@define-color orange   #fab387;
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: @base;
+    color: @text;
+}
+
+#workspaces button {
+    padding: 0 6px;
+    color: @text;
+    opacity: 0.4;
+}
+
+#workspaces button.active {
+    color: @mauve;
+    opacity: 1.0;
+    font-size: 14px;
+}
+
+#workspaces button:hover {
+    color: @lavender;
+    background: transparent;
+}
+
+#clock, #memory, #pulseaudio, #language, #tray, #window, #network, #battery {
+    padding: 0 12px;
+}
+
+#window { color: @lavender; }
+#clock { color: @mauve; }
+#language { color: @blue; }
+#memory { color: @green; }
+#pulseaudio { color: @yellow; }
+#network { color: @lavender; }
+#battery { color: @orange; }
+#tray { margin-right: 8px; }

@@ -1,0 +1,6 @@
+gui-wm/hyprland ::hyproverlay
+dev-libs/hyprlang ::hyproverlay
+dev-libs/hyprcursor ::hyproverlay
+dev-libs/hyprwayland-scanner ::hyproverlay
+gui-libs/hyprutils ::hyproverlay
+gui-wm/hyprland ~amd64dev-libs/hyprlang ~amd64dev-libs/hyprcursor ~amd64dev-libs/hyprwayland-scanner ~amd64gui-libs/hyprutils ~amd64gui-wm/hyprland::hyproverlay ~amd64

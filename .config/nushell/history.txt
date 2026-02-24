@@ -1,0 +1,647 @@
+clear
+ls
+clear
+h /etc/portage/package.accept_keywords/v2raya
+sh /etc/portage/package.accept_keywords/v2raya
+sudo emerge --ask net-proxy/xray net-proxy/v2raya
+sudo emerge --ask net-proxy/v2raya
+ls
+clear
+ls
+cd .dotfiles/.config/
+ls
+f
+curl -sSLo nerdfonts-installer https://github.com/fam007e/nerd_fonts_installer/releases/latest/download/nerdfonts-installer && chmod +x nerdfonts-installer && sudo mv nerdfonts-installer /usr/local/bin/
+c
+g
+c
+f
+sudo nano /etc/portage/package.use/fonts
+sudo emerge --ask media-fonts/nerdfonts
+sudo nano /etc/portage/package.use/fonts
+sudo emerge --ask media-fonts/nerdfonts
+sudo nano /etc/portage/package.use/nerdfonts
+sudo emerge --ask media-fonts/nerdfonts
+echo "media-fonts/nerdfonts ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/nerdfonts
+f
+clear
+f
+sudo emerge --ask gui-apps/waybar
+waybar
+emerge --ask app-misc/zellij
+sudo emerge --ask app-misc/zellij
+echo "app-misc/zellij ~amd64" | sudo tee /etc/portage/package.accept_keywords/zellij
+sudo emerge --ask app-misc/zellij
+cd .dotfiles/.config/
+ls
+hx
+..
+ls
+stow .
+cd .dotfiles/.config/
+cd .config/
+ls
+hx
+reboot
+sudo reboot
+re
+cd ~/.dotfiles/.config/
+ls
+librewolf
+librewolf-bin
+r
+f
+g
+f
+clear
+f
+r
+c
+f
+emerge --ask gui-apps/awww
+sudo emerge --ask gui-apps/awww
+echo "gui-apps/awww ~amd64" | sudo tee /etc/portage/package.accept_keywords/awww
+sudo emerge --ask gui-apps/awww
+sudo emerge --ask gui-apps/slurp
+sudo emerge --ask gui-apps/grim
+ls
+cd ~
+ls
+mkdir Screenshots
+cd Screenshots/
+ls
+emerge --ask net-im/telegram-desktop-bin
+sudo emerge --ask net-im/telegram-desktop-bin
+echo "net-im/telegram-desktop-bin ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/telegram
+sudo emerge --ask net-im/telegram-desktop-bin
+f
+clear
+f
+hx
+r
+ls
+ckear
+clear
+f
+cd ~/.dotfiles/.config/
+ls
+cd helix
+ls
+cd themes/
+ls
+rm -rf gruvbox_custom.toml
+gruvbox_custom.toml
+hx gruvbox_custom.toml
+ls
+mv gruvbox_custom.toml ~/.dotfiles/.config/helix/themes/gruvbox_custom.toml
+hx
+r
+hx
+nano helix/themes/gruvbox_custom.toml
+hx
+waybar
+f
+clear
+f
+hx
+ls
+cd ~
+ls
+mkdir wallpaper
+cd wallpaper/
+cp -r ~/Downloads/wal1.jpg .
+re
+c
+f
+sleep
+loginctl suspend
+re
+ls
+cd ~/.dotfiles/.config/
+ls
+niri msg outputs
+niri varibels
+niri --help
+niri validate
+dasgruvbox_custom.toml
+clear
+f
+awww img ~/wallpaper/wal1.*
+f
+awww img ~/wallpaper/wal2.*
+ls
+h
+hx
+h
+cd ~/.dotfiles/.config/
+clear
+cd ~/.dotfiles/.config/
+clear
+f
+clear
+ls
+clear
+cd ~
+ls
+clear
+ls
+hx
+ls -a
+cd .cache/
+ls
+cd librewolf/
+ld
+ls
+cd ddlgc16b.default/
+;s
+ls
+..
+;s
+ls
+cd f6gok6uc.default-default/
+ls
+cd ~/.config/
+ls
+cd librewolf/
+ls
+cd librewolf/
+ls
+cd `Profile Groups/`
+;s
+ls
+..
+ls
+cd ddlgc16b.default/
+ls
+..
+ls
+cd f6gok6uc.default-default/
+ls
+..
+ls
+cd firefox-mpris/
+ls
+cd ~
+ls
+c
+emerge --ask app-misc/yazi 
+sudo emerge --ask app-misc/yazi 
+echo "app-misc/yazi ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/yazi
+sudo emerge --ask app-misc/yazi 
+clear
+ls
+c
+f
+awww img ~/Downloads/wal1.jpg
+awww img ~/Загрузки/wal2.png
+c
+f
+gx
+c
+f
+c
+f
+c
+f
+c
+f
+cd ~
+cd .dotfiles/.config/
+sudo emerge --ask gnome-extra/nemo
+sudo emerge --ask games-emulation/dolphin
+dolphin
+ps aux | grep portal
+ашыр
+sh /etc/portage/package.use/custom
+sudo equery u www-client/chromium | grep -i l10n
+sudo emerge --ask www-client/chromium
+sh /etc/portage/make.conf
+emerge --ask --update --deep --newuse @world
+sudo emerge --ask --update --deep --newuse @world
+pkill librewold-bin
+pkill librewolf-bin
+h
+c
+f
+c
+f
+c
+f
+c
+f
+pkill telegram-desctop
+pkill -f telegram-desctop
+re
+c
+f
+~
+sh /etc/portage/make.conf
+ls
+h start.sh
+re
+а
+f
+c
+f
+sh /etc/portage/package.use/nautilus
+sudo emerge --ask --autounmask-write gnoma-base/nautilus
+ls
+sudo emerge --ask --autounmask-write gnome-base/nautilus
+re
+reb
+re
+c
+f
+sudo -i
+clear
+waybar
+sh /etc/timezone
+emerge --config sys-libs/timezone-data
+sudo emerge --config sys-libs/timezone-data
+waybar
+ln -sf /usr/share/zoneinfo/Asia/Yekaterinburg /etc/localtime
+sudo ln -sf /usr/share/zoneinfo/Asia/Yekaterinburg /etc/localtime
+waybar
+emerge --ask app-eselect/eselect-repository
+sudo -i
+clear
+steam
+clear
+sudo <\n>[2026-02-21 11:48:38] Set percent complete: -1
+sudo emerge --ask x11-base/xwayland
+echo $DISPLAY
+fish
+qlist -I xwayland
+set -gx DISPLAY :0
+fish
+steam
+clear
+cd .dotfiles/.config/
+h
+..
+stow .
+clear
+re
+waybar
+steam
+set -gx DISPLAY :0
+re
+ls
+clear
+fg
+c
+f
+clear
+cd .dotfiles/.config/
+g
+sh
+c
+f
+h
+waybar
+h
+re
+..
+~
+ls
+gcl https://github.com/mains-hum/Obsidian-Notes
+ls
+clear
+sudo emerge --ask x11-terms/kitty
+clear
+ls
+f
+clear
+f
+awww img ~/wallpaper/wal1.png
+clear
+ls
+lsa
+clear
+lsae
+clear
+f
+cd .dotfiles/.config/
+ls
+~
+eselect repository enable guru
+emaint sync -r guru
+emerge --ask x11-misc/wallust
+sudo emerge --ask x11-misc/wallust
+echo "x11-misc/wallust ~amd64" >> /etc/portage/package.accept_keywords/wallust
+sudo emerge --ask x11-misc/wallust
+f
+wallust run ~/wallpaper/wal2.png
+c
+f
+clear
+f
+c
+f
+c
+f
+h
+ls
+rm -rf wallust/
+clear
+ls
+h
+c
+f
+h
+..
+stow .
+re
+off
+niri-msg output
+niri-msg
+niri-msg output
+f
+c
+f
+c
+f
+c
+fastfetch --logo baphomet
+fastfetch --logo pentagram
+fastfetch --list-logos
+с
+c
+g
+c
+f
+fastfetch --logo LainOS
+c
+f
+fastfetch --logo LainOS
+fastfetch --logo Exherbo
+fastfetch --logo Pentoo
+fastfetch --logo DraugerOS
+fastfetch --logo Void
+fastfetch --logo LainOS
+c
+f
+fastfetch --logo LainOS
+re
+clear
+g
+c
+f
+h
+f
+c
+f
+c
+f
+c
+f
+c
+f
+c
+g
+c
+f
+c
+f
+c
+f
+c
+h
+clear
+ls
+h
+cd .dotfiles/.config/
+g
+h
+ls
+cleae
+clear
+waybar
+g
+h
+waybar
+h
+waybar 
+h
+re
+clear
+~
+ls
+doas emerge --ask media-sound/supercollider
+sudo emerge --ask media-sound/supercollider
+echo "media-sound/supercollider ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/supercollider
+sudo gpasswd -a kunqa audio
+clear
+f
+clear
+f
+sudo emerge --ask media-sound/supercollider
+scide
+cd .dotfiles/.config/
+h
+mkdir SuperCollider
+cd SuperCollider/
+h sc_ide_conf.yaml
+cd ~/.config/
+ls
+rm -rf SuperCollider/
+cd ~/.dotfiles/.config/
+..
+stow .
+cd ~/.config/
+ls
+cd ~/.dotfiles/.config/
+ls
+rm -rf SuperCollider/
+..
+stow .
+cd .config/
+h
+pkill waybar/
+pkill waybar
+р
+h
+waybar 
+р
+h
+cd ~/.config/
+ls
+cd librewolf/
+ls
+clear
+cd librewolf/
+ls
+cd `Profile Groups/`
+ls
+h
+..
+ls
+cd ddlgc16b.default/
+ls
+..
+.
+..
+cd ~
+ls
+la -a
+off
+..
+ls
+h
+eselect repository enable guru
+emaint sync -r guru
+emerge --ask gui-wm/hyprland
+sudo emerge --ask gui-wm/hyprland
+sudo eselect repository enable hyproverlay
+sudo emaint sync -r hyproverlay
+sudo nano /etc/portage/package.accept_keywords/hyprland
+sudo h /etc/portage/package.accept_keywords/hyprland
+sh /etc/portage/package.accept_keywords/hyprland
+sudo emerge --ask gui-wm/hyprland
+echo "gui-wm/hyprland ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/hyprland
+echo "dev-libs/hyprlang ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/hyprland
+echo "dev-libs/hyprcursor ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/hyprland
+echo "dev-libs/hyprwayland-scanner ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/hyprland
+echo "gui-libs/hyprutils ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/hyprland
+echo "gui-wm/hyprland::hyproverlay ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/hyprland
+sudo emerge --ask --verbose --autounmask --autounmask-write gui-wm/hyprland
+sudo etc-update
+sudo emerge --ask gui-wm/hyprland
+h 
+cd .dotfiles/.config/
+h
+ls
+mkdir hypr
+cd hypr
+h hyprland.conf
+cd ~/.config/
+ls
+rm -rf hypr
+cd ~/.dotfiles/
+stow .
+cd ~/.config/
+ls
+c
+f
+cd ~/.dotfiles/
+ls
+cd .config/
+h
+waybar 
+h
+waybar 
+pkill waybar
+waybar 
+..
+~
+h
+re
+р
+cd ~/wallpaper/
+ls
+y
+sudo rm -rf wal1.jpg
+h
+c
+f
+р
+hg
+h
+clear
+h
+clear
+f
+h
+telegram-desctop
+h
+f
+clear
+f
+sudo eselect repository enable guru
+sudo emaint sync -r guru
+echo "net-proxy/v2raya ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/v2raya
+sudo emerge --ask net-proxy/v2raya
+sudo emaint sync -r guru
+clear
+sudo eselect repository enable guru
+sudo emaint sync -r guru
+echo "net-proxy/v2raya ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/v2raya
+sudo emerge --ask net-proxy/v2raya
+sudo eselect repository enable v2ray-overlay
+sudo emaint sync -r v2ray-overlay
+udo eselect repository add v2ray git https://github.com/v2ray/gentoo-overlay.git
+sudo eselect repository add v2ray git https://github.com/v2ray/gentoo-overlay.git
+sudo emaint sync -r v2ray
+echo "net-proxy/nekoray ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/nekoray
+sudo emerge --ask net-proxy/nekoray
+echo "net-proxy/sing-box ~amd64" | sudo tee -a /etc/portage/package.accept_keywords/sing-box
+sudo emerge --ask net-proxy/sing-box
+clear
+h
+re
+f
+clear
+g
+c
+f
+c
+f
+pkill steam
+c
+f
+c
+f
+clear
+ls
+ls -a
+clear
+layman -a benzene-overlay
+emerge net-proxy/v2raya-bin
+equery list v2ray
+curl --socks5 127.0.0.1:1080 https://ifconfig.me
+pkill librewolf-bin
+emerge --ask net-im/discord
+sudo emerge --ask net-im/discord
+emerge --ask sys-apps/flatpak
+sudo emerge --ask sys-apps/flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.discordapp.Discord
+discord
+cd ~/.dotfiles/
+h
+cd .config/
+h
+c
+f
+flatpak run com.discordapp.Discord
+clear
+cd /etc/portage/package.accept_keywords/
+ls
+h
+cd ~/.dotfiles/
+ls
+cp -r /etc/portage/package.accept_keywords/* .
+ls
+rm -rf awww fuzzel hyprland nekoray nerdfonts niri obsidian sing-box supercollider telegram v2raya wallust yazi zellij
+mkdir accpet
+cd accpet/
+cp -r /etc/portage/package.accept_keywords/* .
+ls
+..
+ls
+rm -rf librewolf steam
+;s
+ls
+clear
+cd .config/
+ls
+rm -rf niri
+..
+ls
+..
+cd .dotfiles/
+git init
+ga .
+git commit -m "first commit"
+git config --global user.email "ondy2011tr@gmail.com"
+git config --global user.name "mains-hum"

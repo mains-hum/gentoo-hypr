@@ -1,0 +1,22 @@
+"ui.background" = { bg = "#010001" }
+"ui.linenr" = { fg = "#a6a69c", bg = "#010001" }
+"ui.linenr.selected" = { fg = "#c5c9c5", bg = "#010001", modifiers = ["bold"] }
+"ui.statusline" = { fg = "#c5c9c5", bg = "#010001" }
+"ui.statusline.inactive" = { fg = "#a6a69c", bg = "#010001" }
+"ui.virtual.indent-guide" = { fg = "#282727" }
+"ui.cursor.match" = { fg = "#c4b28a", modifiers = ["bold", "underline"] }
+"ui.bufferline.active" = { fg = "#010001", bg = "#8ea4a2", modifiers = ["bold"] }
+"ui.help" = { bg = "#010001", fg = "#c5c9c5" }
+"ui.menu" = { bg = "#010001", fg = "#c5c9c5" }
+"ui.menu.selected" = { bg = "#2d4f67", fg = "#c5c9c5" }
+"ui.selection" = { bg = "#1a1c1b" }
+"ui.selection.primary" = { bg = "#1a1c1b" }
+"ui.highlight" = { bg = "#1a1c1b" }
+"ui.cursor" = { fg = "#010001", bg = "#c5c9c5" }
+"variable" = "#c5c9c5"
+"constant" = "#e46876"
+"keyword" = "#a292a3"
+"string" = "#8a9a7b"
+"function" = "#8ba4b0"
+"type" = "#8ea4a2"
+"comment" = "#a6a69c"

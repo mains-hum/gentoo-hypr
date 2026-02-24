@@ -1,0 +1,56 @@
+default_shell "nu"
+theme "kanagawa-dragon"
+show_startup_tips false
+default_layout "compact"
+pane_frames false 
+mouse_mode true
+ui {
+    pane_frames {
+        rounded_corners false
+    }
+}
+session_serialization true
+serialize_pane_viewport true
+scrollback_lines_to_serialize 10000
+themes {
+    kanagawa-dragon {
+        fg "#010001"
+        bg "#010001"
+        black "#010001"
+        red "#c4746e"
+        green "#c4b28a"
+        yellow "#c4b28a"
+        blue "#8ba4b0"
+        magenta "#a292a3"
+        cyan "#8ea4a2"
+        white "#c5c9c5"
+        orange "#e46876"
+    }
+}
+keybinds {
+    shared_except "locked" {
+        bind "Ctrl a" { NewPane "Down"; }
+        bind "Ctrl s" { NewPane "Right"; }
+        bind "Ctrl h" { MoveFocus "Left"; }
+        bind "Ctrl l" { MoveFocus "Right"; }
+        bind "Ctrl j" { MoveFocus "Down"; }
+        bind "Ctrl k" { MoveFocus "Up"; }
+        bind "Alt h" { Resize "Increase Left"; }
+        bind "Alt l" { Resize "Increase Right"; }
+        bind "Alt j" { Resize "Increase Down"; }
+        bind "Alt k" { Resize "Increase Up"; }
+        bind "Ctrl t" { NewTab; }
+        bind "Alt w" { CloseTab; }
+        bind "Alt n" { GoToNextTab; }
+        bind "Alt p" { GoToPreviousTab; }
+    }
+}
+plugins {
+    resurrect location="zellij:zellij-resurrect"
+}
+load_plugins {
+    resurrect {
+        on_startup true
+        interval 30
+    }
+}
