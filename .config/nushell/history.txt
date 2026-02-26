@@ -659,3 +659,27 @@ ls
 cp -r eselect-repo.conf ~/.dotfiles/
 cd ~/.dotfiles/
 ls
+ga .
+gc -m "update"
+gpom
+flatpak run com.discordapp.Discord
+cd .config/
+h
+ls
+h
+pkill discord
+cava
+sudo emerge --ask media-sound/cava
+flatpak install flathub org.vinegarhq.Sober
+flatpak run org.vinegarhq.Sober
+sh /etc/portage/make.conf
+ls
+..
+ls
+rm -rf accpet/
+cp -r ~/wallpaper/ ~/start.sh .
+ls\
+ls
+h
+rm -rf eselect-repo.conf
+ls
